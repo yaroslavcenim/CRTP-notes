@@ -1,0 +1,13 @@
+# Obsidian
+.obsidian/
+.trash/
+
+# Windows / system noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor temp files
+~$*
+*.tmp
+*.swp
