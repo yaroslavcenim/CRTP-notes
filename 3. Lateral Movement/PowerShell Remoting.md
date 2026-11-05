@@ -13,9 +13,9 @@ Invoke-Command -FilePath C:\Get-PassHashes.ps1 -ComputerName (Get-Content server
 Invoke-Command -ScriptBlock ${function:Get-Domain} -ComputerName DC01
 
 # Execute "Stateful" commands using Invoke-Command
-	$Sess = New-PSSession -Computername DC01
-	Invoke-Command -Session $Sess -ScriptBlock {\$Proc = Get-Process}
-	Invoke-Command -Session $Sess -ScriptBlock {\$Proc.Name}
+$Sess = New-PSSession -Computername DC01
+Invoke-Command -Session $Sess -ScriptBlock {\$Proc = Get-Process}
+Invoke-Command -Session $Sess -ScriptBlock {\$Proc.Name}
 ```
 
 **Winrs.exe:**

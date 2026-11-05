@@ -35,3 +35,6 @@ net localgroup administrators user /add
 ```
 C:\windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /t:exe /out:RandomName.exe Program.cs
 ```
+
+**AD-Tools repo**:
+https://github.com/Nuvare/AD-Tools/tree/main
