@@ -1,9 +1,3 @@
-**Invoke-Mimikatz:** https://github.com/PowerShellMafia/PowerSploit/tree/master/Exfiltration
-**SafetyKatz.exe:** https://github.com/Nuvare/AD-Tools/tree/main
-**SharpKatz.exe:** https://github.com/jakobfriedl/precompiled-binaries/tree/main/Credentials
-**Pypykatz.exe:** https://github.com/maxamin/AD-Mastertools-collection/tree/main
-**Rubeus.exe:** https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/tree/master
-
 **Extracting Credentials from LSASS:**
 ```powershell
 # Using Mimikatz

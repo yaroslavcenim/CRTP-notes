@@ -1,5 +1,3 @@
-**Invoke-PowerShellTCP:** https://github.com/samratashok/nishang/tree/master/Shells
-
 **Port:** 8080
 **Default_crest:** builduser:builduser
 
