@@ -27,6 +27,11 @@ Get-DomainComputer -OperatingSystem "*Server 2022*"
 Get-DomainComputer -Ping
 ```
 
+**Services:**
+```powershell
+Get-DomainComputer -Identity corp-dc | select -ExpandProperty serviceprincipalname
+```
+
 **Groups:**
 ```powershell
 Get-DomainGroup | select name

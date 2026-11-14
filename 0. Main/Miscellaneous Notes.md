@@ -38,3 +38,4 @@ C:\windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /t:exe /out:RandomName.exe
 
 **AD-Tools repo**:
 https://github.com/Nuvare/AD-Tools/tree/main
+https://github.com/alexporcar/AD-hack-tools/tree/master
