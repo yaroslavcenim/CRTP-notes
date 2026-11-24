@@ -74,6 +74,7 @@ Get-DomainGPOUserLocalGroupMapping -Identity student -Verbose
 ```powershell
 Get-DomainOU
 Get-DomainGPO -Identity "{gplink}"
+(Get-DomainOU -Identity OUname).distinguishedname | %{Get-DomainComputer -SearchBase $_} | select name
 ```
 
 **ACLs:**

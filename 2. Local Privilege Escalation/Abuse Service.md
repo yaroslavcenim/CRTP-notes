@@ -4,9 +4,7 @@
 Stop-Service AbyssWebServer
 
 # 2. Add curent user in local admins
-Install-ServiceBinary -Name 'AbyssWebServer' -UserName 'student1'
-# или:
-Install-ServiceBinary -Name 'AbyssWebServer' -Command 'net localgroup administrators student1 /add'
+Write-ServiceBinary -Name AbyssWebServer -UserName CORP\student -Path "C:\WebServer\Abyss.exe"
 
 # 3. Start service
 Start-Service AbyssWebServer
